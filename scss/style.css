@@ -1,14 +1,15 @@
 .top .bi-headset {
   color: #055a3b;
   font-size: 25px;
-}/*# sourceMappingURL=style.css.map */
-.top span{
+}
+
+.top span {
   color: #055a3b;
 }
-.top span a{
+.top span a {
   text-decoration: none;
   color: #055a3b;
 }
-.top span a:hover{
+.top span a:hover {
   color: blue;
-}
+}/*# sourceMappingURL=style.css.map */

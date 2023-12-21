@@ -1,0 +1,15 @@
+$brand: #055a3b;
+.top .bi-headset {
+  color: $brand;
+  font-size: 25px;
+}
+.top span {
+  color: $brand;
+  a {
+    text-decoration: none;
+    color: #055a3b;
+    &:hover {
+      color: blue;
+    }
+  }
+}
