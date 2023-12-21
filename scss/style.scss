@@ -7,9 +7,20 @@ $brand: #055a3b;
   color: $brand;
   a {
     text-decoration: none;
-    color: #055a3b;
+    color: $brand;
     &:hover {
       color: blue;
     }
   }
+}
+
+.bi-houses-fill {
+  color: #fff;
+  background: orange;
+  padding: 10px;
+  border-radius: 8px;
+}
+.btn {
+  background: orange !important;
+  padding: 14px 24px !important;
 }

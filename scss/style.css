@@ -12,4 +12,16 @@
 }
 .top span a:hover {
   color: blue;
+}
+
+.bi-houses-fill {
+  color: #fff;
+  background: orange;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.btn {
+  background: orange !important;
+  padding: 14px 24px !important;
 }/*# sourceMappingURL=style.css.map */
