@@ -124,4 +124,69 @@ body {
 .why-with-us h2 {
   font-weight: 800;
   font-size: 32px;
+}
+
+footer .social-icons {
+  background: #198754;
+}
+footer .social-icons img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  clear: both;
+}
+footer .social-icons .icons {
+  color: #fff;
+}
+footer .social-icons .tripadvisor img {
+  width: 170px;
+  height: 28px;
+}
+
+.foot-pannel-bottom {
+  background: #055a3b;
+}
+.foot-pannel-bottom .footer-info span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+}
+.foot-pannel-bottom .social-links a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.foot-pannel-bottom .footer-links {
+  list-style: none;
+}
+.foot-pannel-bottom .footer-links h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+  color: #fff;
+}
+.foot-pannel-bottom .footer-links li {
+  margin-bottom: 8px;
+}
+.foot-pannel-bottom .footer-links li a {
+  text-decoration: none;
+  color: #ccc;
 }/*# sourceMappingURL=style.css.map */
