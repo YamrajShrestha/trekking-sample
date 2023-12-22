@@ -4,3 +4,9 @@ $(document).ready(function(){
         margin:20,
     });
   });
+  $(document).ready(function(){
+    $(".two").owlCarousel({
+        items:3,
+        margin:20,
+    });
+  });

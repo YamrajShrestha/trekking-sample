@@ -62,7 +62,7 @@ $brand: #055a3b;
       height: 3px;
       background: $brand;
       left: 50%;
-      top: 40px;
+      top: 45px;
       transform: translateX(-50px);
     }
   }
@@ -97,10 +97,28 @@ $brand: #055a3b;
     left: 20%;
   }
 }
-.bg-whyUs{
+.bg-whyUs {
   background: #006633;
-  h2, p{
+  h2,
+  p {
     color: #fff;
     padding: 0 10px;
   }
+}
+.majetro-img {
+  filter: saturate(190%);
+  opacity: 1;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  padding: 5px;
+  height: auto;
+  max-height: 100%;
+}
+.why-with-us{
+  background: $brand;
+  h2{
+    font-weight: 800;
+    font-size: 32px;
+  }
+  
 }

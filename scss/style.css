@@ -62,7 +62,7 @@ body {
   height: 3px;
   background: #055a3b;
   left: 50%;
-  top: 40px;
+  top: 45px;
   -webkit-transform: translateX(-50px);
           transform: translateX(-50px);
 }
@@ -100,7 +100,28 @@ body {
 .bg-whyUs {
   background: #006633;
 }
-.bg-whyUs h2, .bg-whyUs p {
+.bg-whyUs h2,
+.bg-whyUs p {
   color: #fff;
   padding: 0 10px;
+}
+
+.majetro-img {
+  -webkit-filter: saturate(190%);
+          filter: saturate(190%);
+  opacity: 1;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  padding: 5px;
+  height: auto;
+  max-height: 100%;
+}
+
+.why-with-us {
+  background: #055a3b;
+}
+.why-with-us h2 {
+  font-weight: 800;
+  font-size: 32px;
 }/*# sourceMappingURL=style.css.map */
