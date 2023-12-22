@@ -30,11 +30,9 @@ $brand: #055a3b;
 }
 .carousel-item {
   img {
-    height: 100vh;
-    position: relative;
+    height: 90vh;
   }
   .carousel-caption {
-    position: absolute;
     top: 50%;
     h5 {
       font-weight: bold;
@@ -47,5 +45,26 @@ $brand: #055a3b;
     .btn-outline-success {
       color: #fff;
     }
+  }
+}
+.title {
+  h2 {
+    color: $brand;
+    font-weight: bold;
+    font-size: 32px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 3px;
+      background: $brand;
+      left: 50%;
+      top: 40px;
+      transform: translateX(-50px);
+    }
+  }
+  p {
+    margin-top: 16px;
   }
 }

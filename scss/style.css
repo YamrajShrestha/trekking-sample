@@ -32,11 +32,9 @@ body {
 }
 
 .carousel-item img {
-  height: 100vh;
-  position: relative;
+  height: 90vh;
 }
 .carousel-item .carousel-caption {
-  position: absolute;
   top: 50%;
 }
 .carousel-item .carousel-caption h5 {
@@ -49,4 +47,25 @@ body {
 }
 .carousel-item .carousel-caption .btn-outline-success {
   color: #fff;
+}
+
+.title h2 {
+  color: #055a3b;
+  font-weight: bold;
+  font-size: 32px;
+  position: relative;
+}
+.title h2::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: #055a3b;
+  left: 50%;
+  top: 40px;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+}
+.title p {
+  margin-top: 16px;
 }/*# sourceMappingURL=style.css.map */
